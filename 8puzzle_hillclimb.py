@@ -22,7 +22,7 @@ def hill_climbing(intial,goal):
         i_jblank=find_blank(current)
         if i_jblank is  None:
                 break
-        i,j=find_blank(current)
+        i,j=i_jblank
         neighbours=[]
         if i>0:
             temp=copy.deepcopy(current)
